@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon start server.js"
   },
-  "author": "ankit",
+  "author": "Jadav Surbhi",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
