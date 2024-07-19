@@ -1,12 +1,12 @@
 {
   "name": "curd-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon start server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ankit",
   "license": "ISC",
   "description": "",
   "dependencies": {
