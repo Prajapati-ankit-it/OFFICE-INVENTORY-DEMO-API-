@@ -1,7 +1,7 @@
 import express from 'express'
 const logger = require('morgan')
 const bodyParser = require('body-parser')
-import { connectDB } from './connection';
+import { connectDB } from './database/connection';
 
 const app = express();
 

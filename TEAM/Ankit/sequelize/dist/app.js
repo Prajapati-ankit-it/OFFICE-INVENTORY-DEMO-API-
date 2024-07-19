@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const logger = require('morgan');
 const bodyParser = require('body-parser');
-const connection_1 = require("./connection");
+const connection_1 = require("./database/connection");
 const app = (0, express_1.default)();
 //Setting the hostname and port number for the server to listen
 const hostname = "127.0.0.1";
