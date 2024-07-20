@@ -13,8 +13,8 @@ const port = 3000;
 connectDB();
 
 app.use(bodyParser.json());
-app.use(logger('dev'))
-app.use(express.json())
+app.use(logger('dev'));
+app.use(express.json());
 
 app.use(bodyParser.urlencoded({
     limit: '100mb',
@@ -23,9 +23,9 @@ app.use(bodyParser.urlencoded({
 }));
 
 //Routes
-app.get('/', (req, res) => {
-    res.send('Node.js API Server!');
-});
+// app.get('/', (req, res) => {
+//     res.send('Node.js API Server!');
+// });
 
 
 app.listen(port, hostname, () => {

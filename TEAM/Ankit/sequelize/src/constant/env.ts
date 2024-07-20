@@ -1,4 +1,5 @@
 require('dotenv').config()
+// require('env').env;
 
 const envConstants = {
 
@@ -32,7 +33,6 @@ const envConstants = {
         },
 
     },
-
 
 };
 
