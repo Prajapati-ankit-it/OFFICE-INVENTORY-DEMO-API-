@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.envConstants = void 0;
 require('dotenv').config();
+// require('env').env;
 const envConstants = {
     ENVIRONMENT: process.env.ENVIRONMENT,
     PRIVATE_AUTH_SECRET: process.env.PRIVATE_AUTH_SECRET,

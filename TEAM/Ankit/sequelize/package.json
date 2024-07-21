@@ -2,7 +2,7 @@
   "name": "test-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "compile": "npx tsc",
     "start": "tsc && node dist/app.js",

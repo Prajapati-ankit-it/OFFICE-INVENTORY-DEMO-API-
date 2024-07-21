@@ -22,9 +22,9 @@ app.use(bodyParser.urlencoded({
     parameterLimit: 1000000
 }));
 //Routes
-app.get('/', (req, res) => {
-    res.send('Node.js API Server!');
-});
+// app.get('/', (req, res) => {
+//     res.send('Node.js API Server!');
+// });
 app.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}`);
 });
