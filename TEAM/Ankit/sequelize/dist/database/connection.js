@@ -4,7 +4,11 @@ exports.dbCredentails = exports.sequelize = exports.connectDB = void 0;
 const env = require('../config/env');
 const Sequelize = require('sequelize');
 require('dotenv').config(); // Load environment variables from .env file
-const sequelize = new Sequelize(env.DB.name, env.DB.user, env.DB.password, {
+const sequelize = new Sequelize(
+// env.DB.name,
+// env.DB.user,
+// env.DB.password,
+{
     host: env.DB.host,
     dialect: env.DB.dialect,
     logging: false,

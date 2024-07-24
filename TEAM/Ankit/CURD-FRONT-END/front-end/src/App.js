@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div classname="App">
       {/* <logo></logo> */}
       <h1>ankit</h1>
     </div>
