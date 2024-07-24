@@ -9,7 +9,7 @@ const envConstants = {
     DB: {
 
         LOCAL: {
-            name: process.env.DB_NAME,
+            name: process.env.DB_name,
             user: process.env.DB_USER,
             password: process.env.DB_PASSWORD,
             host: process.env.DB_HOST,
@@ -17,7 +17,7 @@ const envConstants = {
         },
 
         DEV: {
-            name: process.env.DB_NAME,
+            name: process.env.DB_name,
             user: process.env.DB_USER,
             password: process.env.DB_PASSWORD,
             host: process.env.DB_HOST,
@@ -25,7 +25,7 @@ const envConstants = {
         },
 
         PROD: {
-            name: process.env.DB_NAME,
+            name: process.env.DB_name,
             user: process.env.DB_USER,
             password: process.env.DB_PASSWORD,
             host: process.env.DB_HOST,
