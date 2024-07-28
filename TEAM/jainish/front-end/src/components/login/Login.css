@@ -8,17 +8,20 @@
 
 body
 {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     background: url(try1.jpg) no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
+    place-items: center;
 }
 
 
 .center
 {
+    top: 15%;
     background: transparent;
     border: 2px solid rgba(255,255,255,.2);
     backdrop-filter: blur(20px);
