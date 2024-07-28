@@ -1,0 +1,127 @@
+*
+{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url({try1.jpg}) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.center
+{
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    width: 350px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+.center h1
+{
+    font-size: 36px;
+    text-align: center;
+}
+
+.center .input-box
+{   
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input
+{   
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.input-box input::placeholder
+{
+    color: #fff;
+}
+
+.input-box input:hover::placeholder
+{
+    font-size: 17px;
+}
+
+.forget-password
+{
+    text-align: center;
+    justify-content: space-between;
+    margin:10px;
+}
+
+.forget-password a
+{   
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget-password a:hover
+{
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+button
+{   
+    margin-left: 75px;
+    text-align: center;
+    width: 50%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;    
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    cursor: pointer;        
+}
+
+button:hover
+{
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.center .register
+{
+    font-size: 15.5px;
+    text-align: center;
+}
+
+.register a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register a:hover
+{
+    text-decoration: underline;
+    font-size: 17px;
+}
