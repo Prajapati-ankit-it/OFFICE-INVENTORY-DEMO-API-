@@ -3,9 +3,9 @@ const Sequelize = require('sequelize');
 require('dotenv').config(); // Load environment variables from .env file
 
 const sequelize = new Sequelize(
-    // env.DB.name,
-    // env.DB.user,
-    // env.DB.password,
+    env.DB.name,
+    env.DB.user,
+    env.DB.password,
     {
         host: env.DB.host,
         dialect: env.DB.dialect,
