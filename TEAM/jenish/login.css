@@ -1,0 +1,46 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.login-container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.login-container div {
+  margin-bottom: 10px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #21a1f1;
+}
