@@ -1,8 +1,9 @@
-var getREegvalue = function(){
-    return 10;
+const x = {
+    name:"kavya",
+    role:"full stack ",
+    export:30,
+show: function() {
+    console.log(`the name is ${this.name}\n the role is ${this.role}`)
 }
-console.log(getREegvalue());
-
-const getarrowvalue = () => {
-    return 10;
 }
+x.show()
