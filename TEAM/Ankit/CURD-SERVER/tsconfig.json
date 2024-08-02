@@ -8,5 +8,6 @@
       "strict": false
     },
     "include": ["src/**/*.ts"],
-    "exclude": ["node_modules", "dist"]
+    "exclude": ["CURD-SERVER", "dist"]
+  
   }
