@@ -4,6 +4,6 @@ class Demo extends React.Component{
         return(
             <h1>Hello word</h1>
         )
-    }
+    };
 }
 export default Demo;
