@@ -11,3 +11,4 @@ show: function() {
 }
 }
 x.show()
+// settimeout is used for giving timeing to obeject or element to appear in some period of time when code is running 
