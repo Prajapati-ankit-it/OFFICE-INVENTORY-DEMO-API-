@@ -8,7 +8,7 @@ sayhello1()
 const sayhello2 = () => console.log("hello world")
 
 sayhello2()
-// functon with arguments 
+// function with arguments 
 
 const sayhello2 = (name)=>  console.log("hello" + name)
 sayhello2("kavya")
