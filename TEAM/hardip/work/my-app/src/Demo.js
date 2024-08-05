@@ -1,8 +1,8 @@
 import React from "react";
 class Demo extends React.Component{
-    reder(){
+    render(){
         return(
-            <h1>Hello word</h1>
+            <h5>Hello word {this.props.name}</h5>
         )
     };
 }
