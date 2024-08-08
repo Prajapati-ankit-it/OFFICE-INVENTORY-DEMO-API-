@@ -1,0 +1,15 @@
+{
+  "name": "office-inventory-demo-api",
+  "version": "1.0.0",
+  "description": "office Inventory Demo API",
+  "main": "app.js",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "start": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nakchadi ",
+  "license": "MIT"
+}
