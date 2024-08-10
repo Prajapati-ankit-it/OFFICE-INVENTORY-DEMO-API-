@@ -11,5 +11,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "surbhi jadav",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": []
 }
