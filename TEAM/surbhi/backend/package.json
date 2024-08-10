@@ -1,9 +1,8 @@
 {
-  "name": "surbhi",
+  "name": "backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
