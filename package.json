@@ -10,6 +10,15 @@
     "start": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "author": "surbhi jadav",
   "license": "MIT"
+=======
+  "author": "Nakchadi ",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "routes": "^2.1.0"
+  }
+>>>>>>> f6b7f1058d66e9826475fb9db770b6ebc2a72d4d
 }
