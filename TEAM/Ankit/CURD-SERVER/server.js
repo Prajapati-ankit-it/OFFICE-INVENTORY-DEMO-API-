@@ -20,6 +20,15 @@ db.connect((err) => {
     console.log("mysql darabase connected successfully")
 });
 
+app.get("/", (req,res) => {
+    const sql = "SELECT * FROM student";
+    db.query(sql,(err,data) => {
+        if(err) return res.json("error");
+        return res.json(data);
+    })
+    res.json("Hello from Back-End")
+}); 
+
 port = 4000;
 app.listen(port,() => {
     console.log(`Server started on port ${port}`);
