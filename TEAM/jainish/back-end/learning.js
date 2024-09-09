@@ -19,7 +19,7 @@ app.get("/", function (req, res) {
   res.send("<h1> This is the home page.</h1>");
 });
 
-// 4. Start the server and log the port number. 1000 is set to be default port if no PORT environment variable is provided.
+// 4. log the port number. 1000 is set to be default port if no PORT environment variable is provided.
 PORT = process.env.PORT || 1000;
 
 // 5. Start the server.
@@ -88,7 +88,7 @@ app.post("/updateUser/:id", (req, res) => {
 });
 
 //--Delete Operations --------------------------------
-app.get("/deleteUser/:id", (req, res) => {
+app.delete("/deleteUser/:id", (req, res) => {
   query = `DELETE FROM users WHERE id = ${req.params.id};`;
 
   db.query(query, (err, result) => {

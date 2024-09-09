@@ -1,4 +1,3 @@
-// Performing CRUD operations
 function crud_operations(app, db) {
   //--Read Operations --------------------------------
   app.get("/getUserList", (req, res) => {
@@ -48,7 +47,7 @@ function crud_operations(app, db) {
   });
 
   //--Delete Operations --------------------------------
-  app.get("/deleteUser/:id", (req, res) => {
+  app.delete("/deleteUser/:id", (req, res) => {
     query = `DELETE FROM users WHERE id = ${req.params.id};`;
 
     db.query(query, (err, result) => {
